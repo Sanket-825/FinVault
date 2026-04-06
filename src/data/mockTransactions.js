@@ -28,10 +28,11 @@ export const SEED_TRANSACTIONS = [
   { id: 27, date: "2024-03-25", description: "House Rent", amount: 18000, category: "Rent", type: "expense" },
   { id: 28, date: "2024-03-28", description: "Concert Tickets", amount: 2400, category: "Entertainment", type: "expense" },
   { id: 29, date: "2024-03-30", description: "Stock Sale Profit", amount: 12000, category: "Investments", type: "income" },
-  { id: 30, date: "2026-08-06", description: "Car", amount: 123213, category: "Transport", type: "expense" },
+  { id: 30, date: "2026-08-06", description: "Car", amount: 20000, category: "Transport", type: "expense" },
   { id: 31, date: "2026-05-02", description: "Room rent", amount: 20000, category: "Rent", type: "expense" },
   { id: 32, date: "2026-04-05", description: "Shopping", amount: 5000, category: "Shopping", type: "expense" },
   { id: 33, date: "2026-04-02", description: "Car Petrol", amount: 50000, category: "Transport", type: "expense" },
   { id: 34, date: "2026-04-02", description: "Project", amount: 30000, category: "Freelance", type: "income" },
-  { id: 35, date: "2026-04-02", description: "Cash received", amount: 50000, category: "Freelance", type: "income" }
+  { id: 35, date: "2026-04-02", description: "Cash received", amount: 50000, category: "Freelance", type: "income" },
+  { id: 36, date: "2026-08-10", description: "Cash received", amount: 50000, category: "Freelance", type: "income" },
 ];
