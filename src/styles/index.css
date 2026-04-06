@@ -1,0 +1,59 @@
+/* index.css */
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  font-family: 'Inter', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  height: 100%;
+}
+ul, ol { list-style: none; }
+a { text-decoration: none; color: inherit; }
+button { font-family: inherit; outline: none; }
+input, select, textarea { font-family: inherit; }
+
+/* CSS VARIABLES */
+:root {
+  /* COLORS */
+  --bg: #f5f5f7;
+  --bg2: #ffffff;
+  --bg3: #f0f0f3;
+  --surface: #ffffff;
+  --text: #0e0f14;
+  --text2: #5b5b5b;
+  --text3: #8a8a8a;
+  --border: #e0e0e0;
+  --gold: #c9a84c;
+  --gold-light: #e1c96f;
+  --gold-dim: #f8f5e1;
+  --green: #3dba7e;
+  --green-dim: #d4f3e0;
+  --red: #e05a5a;
+  --red-dim: #f7d4d4;
+
+  /* TYPOGRAPHY */
+  --font-body: 'Inter', sans-serif;
+  --font-display: 'Poppins', sans-serif;
+
+  /* OTHER */
+  --radius: 12px;
+  --shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* DARK MODE */
+[data-theme='dark'] {
+  --bg: #0e0f14;
+  --bg2: #1a1b23;
+  --bg3: #252733;
+  --surface: #1a1b23;
+  --text: #f5f5f7;
+  --text2: #cccccc;
+  --text3: #999999;
+  --border: #333347;
+  --gold-dim: #3c2d0f;
+}

@@ -1,0 +1,58 @@
+@media(max-width:900px){
+
+.sidebar {
+
+transform: translateX(-100%);
+
+position:fixed;
+
+z-index:200;
+
+}
+
+.sidebar.open {
+
+transform: translateX(0);
+
+}
+
+.main {
+
+margin-left:0;
+
+}
+
+.charts-row {
+
+grid-template-columns: 1fr;
+
+}
+
+.summary-grid {
+
+grid-template-columns: 1fr;
+
+}
+
+.insights-grid {
+
+grid-template-columns: 1fr;
+
+}
+
+.txn-table th,
+.txn-table td {
+
+font-size:11px;
+
+padding:10px 12px;
+
+}
+
+.hamburger {
+
+display:flex !important;
+
+}
+
+}
