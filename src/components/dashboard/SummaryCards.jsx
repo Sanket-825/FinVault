@@ -11,7 +11,7 @@ function SummaryCards() {
   const { balance, totalIncome, totalExpenses } = useApp();
 
   return (
-    <div className="summary-grid">
+    <div className="summary-grid card fade-in">
 
       <div className="summary-card card-balance">
         <div className="card-label">Total Balance</div>

@@ -7,7 +7,7 @@ export default function MonthlyChart({ data }) {
 
   return (
     <div className="monthly-chart-wrap">
-      <div className="bar-chart">
+      <div className="bar-chart bar">
         {data.map((d, i) => (
           <div key={i} className="bar-group">
             <div className="bar-pair">
